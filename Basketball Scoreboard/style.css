@@ -1,0 +1,27 @@
+.body {
+  background: darkblue;
+}
+
+.scoreboard, .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.team {
+    text-align: center;
+}
+
+.score {
+    font-size: 4em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
