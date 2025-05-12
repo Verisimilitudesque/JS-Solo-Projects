@@ -1,5 +1,5 @@
-.body {
-  background: darkblue;
+body {
+  background: rgb(3, 3, 53);
 }
 
 .scoreboard, .controls {
@@ -7,16 +7,23 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
 }
 
 .team {
     text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 .score {
     font-size: 4em;
     margin: 10px 0;
+    color:red;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
 }
 
 button {
@@ -24,4 +31,8 @@ button {
     margin: 5px;
     font-size: 1em;
     cursor: pointer;
+    background: rgb(3, 3, 53);
+    border: 1px solid white;
+    color:white;
+    border-radius: 10px;;
 }

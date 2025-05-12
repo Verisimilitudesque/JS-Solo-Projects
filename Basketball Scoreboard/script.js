@@ -1,7 +1,9 @@
+// variables to keep track of the scores
 let homeScore = 0;
 let guestScore = 0;
 
-function incrementScore(team, points) {
+// function to increment the score for home or guest team
+function increaseScore(team, points) {
   if (team === 'home') {
       homeScore += points;
       document.getElementById('home-score').textContent = homeScore;
@@ -10,7 +12,7 @@ function incrementScore(team, points) {
       document.getElementById('guest-score').textContent = guestScore;
   }
 }
-
+// function to reset the scores
 function resetScores() {
   homeScore = 0;
   guestScore = 0;
