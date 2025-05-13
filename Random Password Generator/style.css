@@ -1,0 +1,37 @@
+body {
+    background: #1E2A37;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    background:#0FB980;
+    border: 1px solid #0FB980;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+span {
+    color: white;
+}
+
+input {
+    background: #273549;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #273549;
+    margin: 20px 0px;
+    color: white;
+}
+
+#random-password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
