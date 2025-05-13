@@ -9,3 +9,11 @@ const passwordLngth = document.getElementById("ver-length");
 const passwordNmbrs = document.getElementById("ver-numbers");
 const passwordSymbols = document.getElementById("ver-symbols");
 const generatePsswd = document.getElementById("ver-generate");
+
+// function to generate password
+generatePsswd.addEventListener("click", () => {
+  let characters = alpha;
+  passwordNmbrs .checked ? (characters += numbers) : "";
+  passwordNmbrs .checked ? (characters += symbols) : "";
+  passwordTxt.value = generatePassword(length.value, characters);
+});
